@@ -1,4 +1,4 @@
-Framework (CVS Pharmacy app)
+CVS Pharmacy App
 
 Decision: When and how to refill or buy a health item while balancing cost, convenience, and timing.
 
@@ -18,4 +18,5 @@ Risk: If [Payments] approves but [Logistics] is out of stock, the user is charge
 Stewardship: Prescription data is sensitive; restrict access to patient/pharmacy staff, secure storage, and consented sharing (HIPAA-aligned).
 
 Data Domain: Primary — CVS Pharmacy app; Adjacent — [Payments], [Healthcare/Logistics].
+
 
