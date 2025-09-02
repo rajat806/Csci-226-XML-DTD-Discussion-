@@ -17,6 +17,5 @@ Risk: If [Payments] approves but [Logistics] is out of stock, the user is charge
 
 Stewardship: Prescription data is sensitive; restrict access to patient/pharmacy staff, secure storage, and consented sharing (HIPAA-aligned).
 
-Why broken.xml fails: 
-- Sequence violation (coupon appears before `eta`). 
-- Invalid enum value (`method@type="curbside"`; allowed: `pickup|delivery`).
+Data Domain: Primary — CVS Pharmacy app; Adjacent — [Payments], [Healthcare/Logistics].
+
