@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cvs SYSTEM "domain.dtd">
+<cvs>
+  <refill id="r2" date="2025-09-02">
+    <rx>
+      <drug>Amoxicillin</drug>
+      <dosage>500mg</dosage>
+      <due>2025-09-06</due>
+    </rx>
+    <copay>5.00</copay>
+    <stock status="in_stock"/>
+    <coupon>WELCOME5</coupon>   <!-- out of order: should come after eta -->
+    <method type="curbside"/>   <!-- invalid value: only pickup|delivery -->
+    <eta>20</eta>
+  </refill>
+</cvs>

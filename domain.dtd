@@ -1,0 +1,19 @@
+<!ELEMENT cvs (refill)>
+<!ELEMENT refill (rx, copay, stock, method, eta?, coupon?)>
+<!ATTLIST refill id ID #REQUIRED date CDATA #REQUIRED>
+
+<!ELEMENT rx (drug, dosage, due)>
+<!ELEMENT drug (#PCDATA)>
+<!ELEMENT dosage (#PCDATA)>
+<!ELEMENT due (#PCDATA)>
+
+<!ELEMENT copay (#PCDATA)>
+
+<!ELEMENT stock EMPTY>
+<!ATTLIST stock status (in_stock|out_of_stock) #REQUIRED>
+
+<!ELEMENT method EMPTY>
+<!ATTLIST method type (pickup|delivery) #REQUIRED>
+
+<!ELEMENT eta (#PCDATA)>       <!-- minutes or time window -->
+<!ELEMENT coupon (#PCDATA)>    <!-- code like SAVE10 -->

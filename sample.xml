@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cvs SYSTEM "domain.dtd">
+<cvs>
+  <refill id="r1" date="2025-09-02">
+    <rx>
+      <drug>Lisinopril</drug>
+      <dosage>10mg</dosage>
+      <due>2025-09-05</due>
+    </rx>
+    <copay>12.00</copay>
+    <stock status="in_stock"/>
+    <method type="pickup"/>
+    <eta>30</eta>
+    <coupon>EXTRACARE10</coupon>
+  </refill>
+</cvs>
